@@ -1,6 +1,6 @@
 var input = require("./input").input;
 var test = require("./input").test;
-//Not done
+
 var currentArr = input;
 var symbols = "!@#$%^&*_+=-/,";
 
@@ -62,5 +62,5 @@ function getTotal(arr) {
   });
   return total;
 }
-// 31660771 is too low
+
 console.log(getTotal(currentArr));
